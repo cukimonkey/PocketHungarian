@@ -15,13 +15,35 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BasicActivity" />
-        <activity android:name=".Family" />
-        <activity android:name=".House" />
-        <activity android:name=".ColorsNumbers" />
-        <activity android:name=".Grocery" />
-        <activity android:name=".EatingOut" />
-        <activity android:name=".Accommodation"></activity>
+        <activity
+            android:name=".BasicConversation"
+            android:label="@string/first_block"
+            />
+        <activity
+            android:name=".Family"
+            android:label="@string/second_block"
+            />
+        <activity
+            android:name=".House"
+            android:label="@string/third_block"
+            />
+        <activity
+            android:name=".ColorsNumbers"
+            android:label="@string/fourth_block"
+            />
+        <activity
+            android:name=".Grocery"
+            android:label="@string/fifth_block"
+            />
+        <activity
+            android:name=".EatingOut"
+            android:label="@string/sixth_block"
+            />
+        <activity
+            android:name=".Accommodation"
+            android:label="@string/seventh_block"
+            >
+        </activity>
     </application>
 
 </manifest>
