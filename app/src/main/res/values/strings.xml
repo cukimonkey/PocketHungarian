@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pocket Hungarian</string>
+    <string name="first_block">Basic conversation</string>
+    <string name="second_block">Family</string>
+    <string name="third_block">Around the house</string>
+    <string name="fourth_block">Colors and numbers</string>
+    <string name="fifth_block">Grocery and shops</string>
+    <string name="sixth_block">Eating out</string>
+    <string name="seventh_block">Accommodation</string>
+</resources>
