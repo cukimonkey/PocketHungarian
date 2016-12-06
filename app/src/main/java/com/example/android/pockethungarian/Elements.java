@@ -16,6 +16,11 @@ public class Elements {
         mHungarianTranslation = hungarianTranslation;
         mImageId = imageId;
     }
+    public Elements(String englishTranslation, String hungarianTranslation) {
+        mEnglishTranslation = englishTranslation;
+        mHungarianTranslation = hungarianTranslation;
+
+    }
     //Get English translation
     public String getEnglishTranslation() {
         return mEnglishTranslation;

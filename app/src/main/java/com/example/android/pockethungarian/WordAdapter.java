@@ -20,9 +20,12 @@ import java.util.List;
 /**
  * Created by Orsi on 01/12/2016.
  */
+
 public class WordAdapter extends ArrayAdapter {
+    private int mColorId;
     public WordAdapter(Context context, List<Elements> objects) {
         super(context, 0, objects);
+
     }
 
     @Override
@@ -44,8 +47,17 @@ public class WordAdapter extends ArrayAdapter {
         if (local_word.hasImage()) {
             imageView.setImageResource(local_word.getmImageId());
             imageView.setVisibility(View.VISIBLE);
+            View layout = listItemView.findViewById(R.id.text_and_icon);
+            int color = ContextCompat.getColor(getContext(),R.color.block_background);
+            layout.setBackgroundColor(color);
+
         } else {
             imageView.setVisibility(View.GONE);
+            View layout = listItemView.findViewById(R.id.text_and_icon);
+            int color = ContextCompat.getColor(getContext(),R.color.text_background);
+            layout.setBackgroundColor(color);
+
+
         }
 
         TextView englishTextView = (TextView) listItemView.findViewById(R.id.eng_text_views);

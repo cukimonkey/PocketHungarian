@@ -6,26 +6,31 @@
     android:layout_height="match_parent"
     android:minHeight="90dp"
     android:id="@+id/bigger_picture_layout"
-    android:background="@color/text_background"
+    android:background="@color/block_background"
 
     >
     <ImageView
         android:layout_width="80dp"
         android:layout_height="90dp"
         android:id="@+id/icon_image_view"
-        android:gravity="center"
         android:src="@drawable/dialog02"
         />
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/text_and_icon"
+
+        >
         <LinearLayout
             android:id="@+id/text_list"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="5"
             android:layout_height="90dp"
             android:orientation="vertical"
             android:gravity="center_vertical"
-            android:background="@color/text_background"
+
+
 
             >
             <TextView
@@ -33,9 +38,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/eng_text_views"
                 android:paddingLeft="16dp"
-                android:paddingBottom="6dp"
+                android:paddingBottom="4dp"
                 android:textStyle="bold"
-                android:textAppearance="?android:textAppearanceMedium"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
                 android:textColor="@android:color/black"
                 tools:text="Hello"
                 />
@@ -43,21 +49,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/hun_text_views"
+                android:gravity="center_vertical"
                 android:paddingLeft="16dp"
-                android:paddingTop="6dp"
-                android:textAppearance="?android:textAppearanceMedium"
+                android:paddingTop="4dp"
+                android:textSize="20dp"
                 android:textColor="@android:color/black"
                 tools:text="Szia"/>
 
         </LinearLayout>
         <ImageView
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/play_icon"
             android:src="@drawable/ic_play_circle_outline_black_48dp"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="16dp"
+            android:layout_marginRight="8dp"
             android:layout_centerVertical="true"
+            android:layout_gravity="center"
             ></ImageView>
-    </RelativeLayout>
+    </LinearLayout>
 
 </LinearLayout>
