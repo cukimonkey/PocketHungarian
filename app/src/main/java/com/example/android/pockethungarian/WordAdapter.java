@@ -4,6 +4,7 @@ import android.content.Context;
 import android.media.MediaPlayer;
 import android.provider.UserDictionary;
 import android.support.v4.content.ContextCompat;
+import android.text.InputType;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -50,6 +51,7 @@ public class WordAdapter extends ArrayAdapter {
             View layout = listItemView.findViewById(R.id.text_and_icon);
             int color = ContextCompat.getColor(getContext(),R.color.block_background);
             layout.setBackgroundColor(color);
+
 
         } else {
             imageView.setVisibility(View.GONE);
