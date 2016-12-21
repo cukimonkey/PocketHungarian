@@ -1,5 +1,11 @@
 package com.example.android.pockethungarian;
 
+import android.support.v7.app.AppCompatActivity;
+
+//This application is an easy tool to learn some Hungarian phrases and words. The purpose
+//of the app was to teach useful expression with fun imaginary and audio materials.
+//Created and illustrated by Ursula Armstrong, 2016
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -20,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 Intent basicIntent = new Intent(MainActivity.this,BasicConversation.class);
                 startActivity(basicIntent);
-                Toast.makeText(view.getContext(),"Basic Conversation",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -31,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 Intent familyIntent = new Intent(MainActivity.this,Family.class);
                 startActivity(familyIntent);
-                Toast.makeText(view.getContext(),"Family",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -42,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 Intent houseIntent = new Intent(MainActivity.this,House.class);
                 startActivity(houseIntent);
-                Toast.makeText(view.getContext(),"Around the house",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -53,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 Intent colorsIntent = new Intent(MainActivity.this,ColorsNumbers.class);
                 startActivity(colorsIntent);
-                Toast.makeText(view.getContext(),"Colors and Numbers",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -64,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 Intent groceryIntent = new Intent(MainActivity.this,Grocery.class);
                 startActivity(groceryIntent);
-                Toast.makeText(view.getContext(),"Grocery and shops",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -75,7 +76,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 Intent eatingOutIntent = new Intent(MainActivity.this,EatingOut.class);
                 startActivity(eatingOutIntent);
-                Toast.makeText(view.getContext(),"Eating out",Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -86,7 +86,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 Intent accomodationIntent = new Intent(MainActivity.this,Accommodation.class);
                 startActivity(accomodationIntent);
-                Toast.makeText(view.getContext(),"Accommodation",Toast.LENGTH_SHORT).show();
             }
         });
 

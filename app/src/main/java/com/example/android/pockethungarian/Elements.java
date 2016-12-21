@@ -1,24 +1,24 @@
 package com.example.android.pockethungarian;
 
-/**
- * Created by Orsi on 01/12/2016.
- */
+
 public class Elements {
     private String mEnglishTranslation;
     private String mHungarianTranslation;
     private int mImageId = NO_IMAGE_PROVIDED;
+    private int mAudioResourceId;
 
     public static final int NO_IMAGE_PROVIDED = -1;
 
-
-    public Elements(String englishTranslation, String hungarianTranslation, int imageId ) {
+    public Elements(String englishTranslation, String hungarianTranslation, int imageId, int audioResourceId ) {
         mEnglishTranslation = englishTranslation;
         mHungarianTranslation = hungarianTranslation;
         mImageId = imageId;
+        mAudioResourceId = audioResourceId;
     }
-    public Elements(String englishTranslation, String hungarianTranslation) {
+    public Elements(String englishTranslation, String hungarianTranslation, int audioResourceId) {
         mEnglishTranslation = englishTranslation;
         mHungarianTranslation = hungarianTranslation;
+        mAudioResourceId = audioResourceId;
 
     }
     //Get English translation
@@ -35,6 +35,9 @@ public class Elements {
     }
     public boolean hasImage(){
         return mImageId != NO_IMAGE_PROVIDED;
+    }
+    public int getmAudioResourceId() {
+        return mAudioResourceId;
     }
 
 }
