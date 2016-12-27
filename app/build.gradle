@@ -11,8 +11,8 @@ android {
         applicationId "com.my.first.app.pockethungarian"
         minSdkVersion 15
         targetSdkVersion 24
-        versionCode 1.02
-        versionName "1.02updated"
+        versionCode 2
+        versionName "2updated"
         signingConfig signingConfigs.config
     }
     buildTypes {
