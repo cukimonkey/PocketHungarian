@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 //        Find a View and set up an onClickListener for BasicConversation Activity
-        TextView basics = (TextView) findViewById(R.id.basics);
+        View basics = (View) findViewById(R.id.basics);
         basics.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 //        Find a View and set up an onClickListener for Family Activity
-        TextView family = (TextView) findViewById(R.id.family);
+        View family = (View) findViewById(R.id.family);
         family.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 //        Find a View and set up an onClickListener for House Activity
-        TextView house = (TextView) findViewById(R.id.around_the_house);
+        View house = (View) findViewById(R.id.around_the_house);
         house.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 //        Find a View and set up an onClickListener for ColorsNumbers Activity
-        TextView colors = (TextView) findViewById(R.id.colors_and_numbers);
+        View colors = (View) findViewById(R.id.colors_and_numbers);
         colors.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 //        Find a View and set up an onClickListener for Grocery Activity
-        TextView grocery = (TextView) findViewById(R.id.grocery_and_shops);
+        View grocery = (View) findViewById(R.id.grocery_and_shops);
         grocery.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 //        Find a View and set up an onClickListener for EatingOut Activity
-        TextView eatingOut = (TextView) findViewById(R.id.eating_out);
+        View eatingOut = (View) findViewById(R.id.eating_out);
         eatingOut.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -80,12 +80,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
 //        Find a View and set up an onClickListener for Accommodation Activity
-        TextView accomodation = (TextView) findViewById(R.id.accomodation);
-        accomodation.setOnClickListener(new View.OnClickListener(){
+        View accommodation = (View) findViewById(R.id.accommodation);
+        accommodation.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent accomodationIntent = new Intent(MainActivity.this,Accommodation.class);
-                startActivity(accomodationIntent);
+                Intent accommodationIntent = new Intent(MainActivity.this,Accommodation.class);
+                startActivity(accommodationIntent);
             }
         });
 

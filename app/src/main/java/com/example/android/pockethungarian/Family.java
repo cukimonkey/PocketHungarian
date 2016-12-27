@@ -90,15 +90,15 @@ public class Family extends AppCompatActivity {
         elements.add(new Elements("niece","unokahúg", R.drawable.lany, R.raw.unokahug));
         elements.add(new Elements("Your niece laughs loudly","Az unokahugod hangosan nevet", R.raw.unokahugod_nevet));
         elements.add(new Elements("mother-in-law","anyós", R.drawable.nagymama, R.raw.anyos));
-        elements.add(new Elements("Mother-in-laws are kind.","Az anyósok kedvesek", R.raw.anyosok_kedvesek));
-        elements.add(new Elements("father-in-low","após", R.drawable.apa, R.raw.apos));
+        elements.add(new Elements("Mothers-in-law are kind.","Az anyósok kedvesek", R.raw.anyosok_kedvesek));
+        elements.add(new Elements("father-in-law","após", R.drawable.apa, R.raw.apos));
         elements.add(new Elements("My father-in-law helps a lot","Az apósom sokat segít", R.raw.aposom_segit));
         elements.add(new Elements("sister-in-law","sógornő", R.drawable.sogorno, R.raw.sogorno));
         elements.add(new Elements("Her sister-in-law loves animals","A sogornője szeretni az állatokat", R.raw.sogornoe_szereti));
-        elements.add(new Elements("brother-in-low","sógor", R.drawable.nagybacsi, R.raw.sogor));
+        elements.add(new Elements("brother-in-law","sógor", R.drawable.nagybacsi, R.raw.sogor));
         elements.add(new Elements("His brother-in-law doesn't eat meat","A sógora nem eszik húst", R.raw.sogor_nemeszik));
         elements.add(new Elements("grandson/granddaughter","unoka", R.drawable.ocsi, R.raw.unoka));
-        elements.add(new Elements("My grangson is great","Az unokám nagyszerű", R.raw.unokam_nagyszeru));
+        elements.add(new Elements("My grandson is great","Az unokám nagyszerű", R.raw.unokam_nagyszeru));
 
 
 //  Create an {WordAdapter}, whose data source is a list of {Elements}s.

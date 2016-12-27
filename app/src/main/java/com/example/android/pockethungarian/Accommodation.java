@@ -98,6 +98,7 @@ public class Accommodation extends AppCompatActivity {
                         AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
 
                 if (result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
+                    Toast.makeText(Accommodation.this, "Play", Toast.LENGTH_SHORT).show();
                     mediaPlayer = MediaPlayer.create(Accommodation.this,newElements.getmAudioResourceId());
                     mediaPlayer.start();
                     mediaPlayer.setOnCompletionListener(mCompletionListener);

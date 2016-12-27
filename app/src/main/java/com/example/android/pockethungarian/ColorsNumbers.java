@@ -66,7 +66,7 @@ public class ColorsNumbers extends AppCompatActivity {
         elements.add(new Elements("Eleven","Tizenegy", R.drawable.tizenegy, R.raw.tizenegy));
         elements.add(new Elements("Twelve","Tizenkettő", R.drawable.tizenketto, R.raw.tizenketto));
         elements.add(new Elements("Thirteen","Tizenhárom", R.drawable.tienharom, R.raw.tizenharom));
-        elements.add(new Elements("Fourteen","Tizennégy", R.drawable.tizennnegy, R.raw.tizenegy));
+        elements.add(new Elements("Fourteen","Tizennégy", R.drawable.tizennnegy, R.raw.tizennegy));
         elements.add(new Elements("Fifteen","Tizenöt", R.drawable.tizenot, R.raw.tizenot));
         elements.add(new Elements("Sixteen","Tizenhat", R.drawable.tizenhat, R.raw.tizenhat));
         elements.add(new Elements("Seventeen","Tizenhét", R.drawable.tizenhet, R.raw.tizenhet));

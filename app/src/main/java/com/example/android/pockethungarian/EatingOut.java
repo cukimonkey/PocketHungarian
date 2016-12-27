@@ -69,7 +69,7 @@ public class EatingOut extends AppCompatActivity {
         elements.add(new Elements("Soup","Leves", R.drawable.leves, R.raw.leves));
         elements.add(new Elements("This soup is a little bit spicy","Ez a leves kicsit csípős.", R.raw.leves_csipos));
         elements.add(new Elements("Main course","Főétel", R.drawable.foetel, R.raw.foetel));
-        elements.add(new Elements("The main course is very fulfilling","A főétel nagyon laktató", R.raw.foetel_laktato));
+        elements.add(new Elements("The main course is very filling","A főétel nagyon laktató", R.raw.foetel_laktato));
         elements.add(new Elements("Dessert","Desszert", R.drawable.desszert, R.raw.desszert));
         elements.add(new Elements("I ordered pancake for dessert","Palacsintát rendeltem desszertnek", R.raw.palacsintat_rendeltem));
         elements.add(new Elements("Excuse me, I'd like to order","Elnézést, rendelni szeretnék", R.raw.elnezest_rendelni));
